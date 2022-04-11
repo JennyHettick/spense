@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Cabin';
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    margin: auto !important;
+    max-width: 1444px;
+    width: 100%;
+}
+header,
+nav .container-fluid,
+html {
+    background-color: #F0EEEB;
+}
+ul {
+    list-style: none;
+}
+header {
+    padding: 0 10% 4.375rem 10%;
+}
+#navlogo {
+    color: #000;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.navbar-toggler {
+    outline: none;
+}
+.navbar-toggler-icon {
+    font-size: 2rem;
+}
+.nav-link {
+    color: #000;
+    font-size: 1.125rem;
+}
+#navtext {
+    font-size: 1rem;
+}
+.featured {
+    margin-top: 1rem;
+    overflow: hidden;
+}
+.cta {
+    float: left;
+    margin-bottom: 3.875rem;
+    padding-top: 4.125rem;
+}
+.cta h2 {
+    font-size: 3vw;
+    font-weight: 700;
+}
+.cta i {
+    margin-right: .5rem;
+}
+#email {
+    height: 3.625rem;
+    text-align: center;
+    width: 52%;
+}
+#submit {
+    background-color: #000;
+    border-radius: 0.35rem;
+    color: #fff;
+    height: 3.625rem;
+    margin-left: 1rem;
+    width: 35%;
+}
+.earningsback {
+    background-image: url('../img/Rectangle\ 2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    float: right;
+}
+.earnings {
+    background-color: #fff;
+    border-radius: .7rem;
+    height: 158px;
+    margin: 7% 0 98% 5%;
+    width: 178px;
+}
+.earnings h3 {
+    font-size: 1rem;
+    padding: 15px 0 15px 20px;
+}
+.earnings hr {
+    margin: 0 auto;
+    width: 80%;
+}
+.earnings p {
+    font-weight: 700;
+    margin: 10px 0 10px 20px;
+}
+.earnings button {
+    background-color: #000;
+    border-radius: .35rem;
+    color: #fff;
+    height: 23%;
+    margin: 0 20px 20px 20px;
+    width: 78%;
+}
+.content {
+    clear: both;
+    padding-top: 3rem;
+}
+#socials {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10% 0 10%;
+    padding-bottom: 4%;
+}
+#socials img {
+    width: 5.8vw;
+}
+.escrow {
+    background-color: #F0EEEB;
+    border-radius: 12px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 79%;
+}
+.escrowtext {
+    float: left;
+    margin: 8% 4% 0 7%;
+    width: 40%;
+}
+.escrowtext h3 {
+    font-weight: 700;
+    font-size: 2vw;
+    width: 80%;
+}
+.escrowtext p {
+    font-size: 1vw;
+}
+.escrowtext a,
+.texteditor a {
+    color: #000;
+    font-size: 1vw;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.escrow img {
+    float: right;
+    margin: 5% 7% 0 0;
+    width: 39%;
+}
+.texteditor {
+    margin-bottom: 4%;
+    margin-top: 3%;
+    overflow: hidden;
+}
+#textholder {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    width: 79%;
+}
+#texteditortext {
+    padding: 10% 2% 0 2%;
+    width: 46%;
+}
+#texteditortext h2 {
+    font-size: 1.8vw;
+    font-weight: 700;
+}
+#texteditortext p {
+    font-size: 1vw;
+}
+#textholder img {
+    width: 54%;
+}
+footer {
+    background-color: #000;
+    padding: 5% 5% 5% 5%;
+}
+#flexfooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer h3 {
+    color: #fff;
+    font-size: 1.25rem;
+}
+footer p,
+footer li {
+    color: #9E9E9E;
+    font-size: 1rem;
+}
+.footerspense {
+    width: 370px;
+}
+.footerextra {
+    width: 140px;
+}
+
+/* SMALLER DESKTOP STYLES */
+@media (max-width: 992px) {
+.mediumhide {
+    display: block;
+}
+.escrowtext h3 {
+    font-weight: 700;
+    font-size: 2.6vw;
+    width: 80%;
+}
+.escrowtext p {
+    font-size: 1.3vw;
+}
+.escrowtext a,
+.texteditor a {
+    color: #000;
+    font-size: 1.3vw;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#texteditortext h2 {
+    font-weight: 700;
+    font-size: 2.4vw;
+}
+#texteditortext p {
+    font-size: 1.3vw;
+}
+}
+
+/* TABLET STYLES */
+@media (max-width: 768px) {
+.smallhide {
+    display: block;
+}
+.mediumhide {
+    display: none;
+}
+#socials img {
+    width: 12vw;
+}
+header {
+    padding: 0 5% 0 5%
+}
+.earnings {
+    margin: 7% 0 30% 5%;
+}
+.cta h2 {
+    font-size: 6.5vw;
+    font-weight: 700;
+}
+#email {
+    height: 3.625rem;
+    width: 60%;
+}
+#submit {
+    height: 3.625rem;
+    width: 30%;
+}
+#socials {
+    padding: 0 2% 3% 2%;
+}
+.escrowtext,
+.escrow img {
+    float: none;
+}
+.escrowtext {
+    margin: 10% 4% 0 13%;
+    width: 68%;
+}
+.escrow img {
+    display: block;
+    margin: 5% auto 0 auto;
+    width: 60%;
+}
+.escrowtext h3 {
+    font-size: 4.4vw;
+}
+.escrowtext p {
+    font-size: 2vw;
+}
+.escrowtext a, .texteditor a {
+    font-size: 2vw;
+}
+.escrow {
+    width: 95%;
+}
+#textholder {
+    display: block;
+    width: 95%;
+}
+#texteditortext {
+    padding: 3% 0 0 0;
+    width: 100%;
+}
+#texteditortext h2 {
+    font-size: 4.5vw;
+}
+#texteditortext p {
+    font-size: 2.4vw;
+}
+#textholder img {
+    width: 100%;
+}
+.content {
+    padding-top: 3%;
+}
+}
+
+/* LARGER PHONE STYLES */
+@media (max-width: 576px) {
+.smallhide,
+.mediumhide {
+    display: none;
+}
+#email {
+    width: 55%;
+}
+#submit {
+    width: 35%;
+}
+#socials img {
+    width: 22vw;
+}
+.escrowtext h3,
+#texteditortext h2 {
+    font-size: 8vw;
+}
+.escrowtext p,
+#texteditortext p {
+    font-size: 4vw;
+}
+.escrowtext a, .texteditor a {
+    font-size: 4vw;
+}
+.escrow img {
+    width: 80%;
+}
+
+}
